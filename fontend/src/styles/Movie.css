@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.movie{
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1%;
+    background-color: #1a202c;    
+    padding: 1%;  
+    margin: 1%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);   
+    width: 300px;
+    margin: 20px;    
+}
+
+.movie h2{
+    color: rgb(237, 226, 226);   
+    font-weight: 600;
+    font-size: 1.2rem;
+    max-width: 95%;
+    text-align: center;
+    overflow: hidden;    
+    margin: 10px 0 10px 0;    
+}
+.movie img{
+    margin-top: auto;   
+    border-radius: 8px;
+    width: 70%;
+    height: 300px;
+    margin-bottom: 5px;
+}
+.movie p{
+    color: white;
+    font-size: 1rem;
+    max-width: 100%;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
