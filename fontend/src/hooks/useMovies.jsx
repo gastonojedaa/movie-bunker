@@ -5,6 +5,7 @@ export function useMovies() {
 	const [movies, setMovies] = useState('')
 	const isAlreadySearched = useRef(false)
 
+	// Fetch movies from the API
 	const getMovies = async (search) => {
 		if (search == isAlreadySearched.current) return
 
